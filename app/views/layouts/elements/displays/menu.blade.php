@@ -12,8 +12,8 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li><a href="#"><i class="icon-home"></i></a></li>
-        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="{{ url('/') }}"><i class="icon-home"></i></a></li>
+        <li><a href="{{ url('/intro') }}">Giới thiệu</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm & dịch vụ <b class="caret"></b></a>
           <ul class="dropdown-menu">

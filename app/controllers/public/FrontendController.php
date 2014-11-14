@@ -6,4 +6,8 @@ class FrontendController extends BaseController {
         return View::make('frontends.index');
     }
 
+    public function getIntro(){
+    	return View::make('frontends.intro');
+    }
+
 }

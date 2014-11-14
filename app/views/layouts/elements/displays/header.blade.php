@@ -32,17 +32,6 @@
 <body>
 
 
-<!-- Header starts -->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <!-- Logo. Use class "color" to add color to the text. -->
-        <div class="logo">
-          <h1><a href="#">Trung Thanh <span class="color bold"> Print</span></a></h1>
-          <p class="meta">online printing is fun!!!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
+<div class="logo">
+  <img src="{{ url('asset/frontend/img/logo.jpg') }}" width="100%">
+</div>

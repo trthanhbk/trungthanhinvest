@@ -2,45 +2,45 @@
     <h4 class="title text-center">Danh mục thiết kế và in ấn</h4>
     <nav>
         <ul id="nav">
-            <li class="has_sub"><a href="#">Ấn phẩm văn phòng</a>
-                <ul>
-                    <li><a href="#">Danh thiếp</a></li>
-                    <li><a href="#">Tiêu đề thư</a></li>
-                    <li><a href="#">Phong bì</a></li>
-                    <li><a href="#">Bìa đựng hồ sơ</a></li>
+            <li class="has_sub"><a href="#" {{ $controller == "VanphongController" ? "class='open'" : "" }}>Ấn phẩm văn phòng</a>
+                <ul {{ $controller == "VanphongController" ? "style='display:block;'" : "" }}>
+                    <li><a href="{{ action('VanphongController@getDanhThiep') }}">Danh thiếp</a></li>
+                    <li><a href="{{ action('VanphongController@getTieuDeThu') }}">Tiêu đề thư</a></li>
+                    <li><a href="{{ action('VanphongController@getPhongBi') }}">Phong bì</a></li>
+                    <li><a href="{{ action('VanphongController@getBiaDungHoSo') }}">Bìa đựng hồ sơ</a></li>
                 </ul>
             </li>
-            <li class="has_sub"><a href="#">Ấn phẩm quảng cáo</a>
-                <ul>
-                    <li><a href="#">Tờ gấp</a></li>
-                    <li><a href="#">Tờ rơi</a></li>
-                    <li><a href="#">Poster</a></li>
-                    <li><a href="#">Catalogue</a></li>
+            <li class="has_sub"><a href="#" {{ $controller == "QuangcaoController" ? "class='open'" : "" }}>Ấn phẩm quảng cáo</a>
+                <ul {{ $controller == "QuangcaoController" ? "style='display:block;'" : "" }}>
+                    <li><a href="{{ action('QuangcaoController@getToGap') }}">Tờ gấp</a></li>
+                    <li><a href="{{ action('QuangcaoController@getToRoi') }}">Tờ rơi</a></li>
+                    <li><a href="{{ action('QuangcaoController@getPoster') }}">Poster</a></li>
+                    <li><a href="{{ action('QuangcaoController@getCatalogue') }}">Catalogue</a></li>
                 </ul>
             </li>
-            <li class="has_sub"><a href="#">Lịch</a>
-                <ul>
-                    <li><a href="#">Lịch độc quyền</a></li>
-                    <li><a href="#">Lịch in phôi</a></li>
-                    <li><a href="#">Lịch lò xo 7 tờ</a></li>
-                    <li><a href="#">Lịch nẹp thiếc</a></li>
-                    <li><a href="#">Thiếp chúc mừng năm mới</a></li>
-                    <li><a href="#">Túi</a></li>
+            <li class="has_sub"><a href="#" {{ $controller == "LichController" ? "class='open'" : "" }}>Lịch</a>
+                <ul {{ $controller == "LichController" ? "style='display:block;'" : "" }}>
+                    <li><a href="{{ action('LichController@getLichDocQuyen') }}">Lịch độc quyền</a></li>
+                    <li><a href="{{ action('LichController@getLichInPhoi') }}">Lịch in phôi</a></li>
+                    <li><a href="{{ action('LichController@getLichLoXo') }}">Lịch lò xo 7 tờ</a></li>
+                    <li><a href="{{ action('LichController@getLichNepThiec') }}">Lịch nẹp thiếc</a></li>
+                    <li><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Thiếp chúc mừng năm mới</a></li>
+                    <li><a href="{{ action('LichController@getTui') }}">Túi</a></li>
                 </ul>
             </li>
-            <li class="has_sub"><a href="#">Nhãn mác, tem bảo hành</a>
-                <ul>
-                    <li><a href="#">Nhãn decal</a></li>
-                    <li><a href="#">Tem bảo hành</a></li>
+            <li class="has_sub"><a href="#" {{ $controller == "NhanController" ? "class='open'" : "" }}>Nhãn mác, tem bảo hành</a>
+                <ul {{ $controller == "NhanController" ? "style='display:block;'" : "" }}>
+                    <li><a href="{{ action('NhanController@getNhanDecal') }}">Nhãn decal</a></li>
+                    <li><a href="{{ action('NhanController@getTemBaoHanh') }}">Tem bảo hành</a></li>
                 </ul>
             </li>
-            <li class="has_sub"><a href="#" >Ấn phẩm khác</a>
-                <ul>
-                    <li><a href="#">Phiếu bảo hành</a></li>
-                    <li><a href="#">Thực đơn</a></li>
-                    <li><a href="#">Biểu mẫu</a></li>
-                    <li><a href="#">Thẻ nhựa</a></li>
-                    <li><a href="#">Vé giữ xe</a></li>
+            <li class="has_sub"><a href="#" {{ $controller == "AnPhamKhacController" ? "class='open'" : "" }}>Ấn phẩm khác</a>
+                <ul {{ $controller == "AnPhamKhacController" ? "style='display:block;'" : "" }}>
+                    <li><a href="{{ action('AnPhamKhacController@getPhieuBaoHanh') }}">Phiếu bảo hành</a></li>
+                    <li><a href="{{ action('AnPhamKhacController@getThucDon') }}">Thực đơn</a></li>
+                    <li><a href="{{ action('AnPhamKhacController@getBieuMau') }}">Biểu mẫu</a></li>
+                    <li><a href="{{ action('AnPhamKhacController@getTheNhua') }}">Thẻ nhựa</a></li>
+                    <li><a href="{{ action('AnPhamKhacController@getVeGiuXe') }}">Vé giữ xe</a></li>
                 </ul>
             </li>
         </ul>

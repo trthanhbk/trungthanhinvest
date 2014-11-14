@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AnPhamKhacController' => $baseDir . '/app/controllers/public/AnPhamKhacController.php',
     'Barryvdh\\Debugbar\\Console\\ClearCommand' => $vendorDir . '/barryvdh/laravel-debugbar/src/Barryvdh/Debugbar/Console/ClearCommand.php',
     'Barryvdh\\Debugbar\\Console\\PublishCommand' => $vendorDir . '/barryvdh/laravel-debugbar/src/Barryvdh/Debugbar/Console/PublishCommand.php',
     'Barryvdh\\Debugbar\\DataCollector\\AuthCollector' => $vendorDir . '/barryvdh/laravel-debugbar/src/Barryvdh/Debugbar/DataCollector/AuthCollector.php',
@@ -526,6 +527,7 @@ return array(
     'LaravelBook\\Ardent\\Providers\\ArdentServiceProvider' => $vendorDir . '/laravelbook/ardent/src/LaravelBook/Ardent/Providers/ArdentServiceProvider.php',
     'LazyMap\\AbstractLazyMap' => $vendorDir . '/ocramius/lazy-map/src/LazyMap/AbstractLazyMap.php',
     'LazyMap\\CallbackLazyMap' => $vendorDir . '/ocramius/lazy-map/src/LazyMap/CallbackLazyMap.php',
+    'LichController' => $baseDir . '/app/controllers/public/LichController.php',
     'Math_BigInteger' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Math/BigInteger.php',
     'Monolog\\ErrorHandler' => $vendorDir . '/monolog/monolog/src/Monolog/ErrorHandler.php',
     'Monolog\\Formatter\\ChromePHPFormatter' => $vendorDir . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
@@ -630,6 +632,7 @@ return array(
     'Net_SFTP_Stream' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Net/SFTP/Stream.php',
     'Net_SSH1' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Net/SSH1.php',
     'Net_SSH2' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Net/SSH2.php',
+    'NhanController' => $baseDir . '/app/controllers/public/NhanController.php',
     'Normalizer' => $vendorDir . '/patchwork/utf8/class/Normalizer.php',
     'PHPParser_Autoloader' => $vendorDir . '/nikic/php-parser/lib/PHPParser/Autoloader.php',
     'PHPParser_Builder' => $vendorDir . '/nikic/php-parser/lib/PHPParser/Builder.php',
@@ -1454,6 +1457,7 @@ return array(
     'Psr\\Log\\LoggerInterface' => $vendorDir . '/psr/log/Psr/Log/LoggerInterface.php',
     'Psr\\Log\\LoggerTrait' => $vendorDir . '/psr/log/Psr/Log/LoggerTrait.php',
     'Psr\\Log\\NullLogger' => $vendorDir . '/psr/log/Psr/Log/NullLogger.php',
+    'QuangcaoController' => $baseDir . '/app/controllers/public/QuangcaoController.php',
     'RequestModel' => $baseDir . '/app/models/RequestModel.php',
     'RequestObserver' => $baseDir . '/app/models/RequestModel.php',
     'RequestStatus' => $baseDir . '/app/models/RequestStatus.php',
@@ -2103,6 +2107,7 @@ return array(
     'User' => $baseDir . '/app/models/User.php',
     'UsersController' => $baseDir . '/app/controllers/UsersController.php',
     'UsersTableSeeder' => $baseDir . '/app/database/seeds/UsersTableSeeder.php',
+    'VanphongController' => $baseDir . '/app/controllers/public/VanphongController.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',
     'Whoops\\Exception\\Frame' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Frame.php',
