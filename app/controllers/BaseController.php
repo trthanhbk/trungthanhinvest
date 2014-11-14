@@ -14,7 +14,7 @@ class BaseController extends Controller {
 			$this->layout = View::make($this->layout);
 		}
 
-        View::share("controller", static::class);
+        View::share("controller", get_class($this));
 	}
 
 }
