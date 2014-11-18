@@ -13,7 +13,7 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li><a href="{{ url('/') }}"><i class="icon-home"></i></a></li>
-        <li><a href="{{ url('/intro') }}">Giới thiệu</a></li>
+        <li><a href="{{ action('FrontendController@getIntro') }}">Giới thiệu</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm & dịch vụ <b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -26,10 +26,17 @@
             <li><a href="#">Confirmation</a></li>
           </ul>
         </li>
-        <li><a href="#">Khuyến mãi</a></li>
-        <li><a href="#">Đặt hàng</a></li>
-        <li><a href="#">Phản hồi</a></li>
-        <li><a href="#">Liên hệ</a></li>
+        <li><a href="{{ action('FrontendController@getKhuyenMai') }}">Khuyến mãi</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Đặt hàng <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ action('FrontendController@getQuyTrinhDatHang') }}">Quy Trình Đặt Hàng</a></li>
+            <li><a href="{{ action('FrontendController@getDatHangInAn') }}">Đặt Hàng In Ấn</a></li>            
+          </ul>
+        </li>
+        <li><a href="{{ action('FrontendController@getPhanHoi') }}">Phản hồi</a></li>
+        <li><a href="{{ action('FrontendController@getLienHe') }}">Liên hệ</a></li>
       </ul>
     </nav>
   </div>
