@@ -17,13 +17,11 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm & dịch vụ <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">View Cart</a></li>
-            <li><a href="#">Checkout</a></li>
-            <li><a href="#">Wish List</a></li>
-            <li><a href="#">Order History</a></li>
-            <li><a href="#">Edit Profile</a></li>
-            <li><a href="#">Confirmation</a></li>
+            <li><a href="{{ action('VanphongController@getIndex') }}">Ấn phẩm văn phòng</a></li>
+            <li><a href="{{ action('QuangcaoController@getIndex') }}">Ấn phẩm quảng cáo</a></li>
+            <li><a href="{{ action('LichController@getIndex') }}">Lịch</a></li>
+            <li><a href="{{ action('NhanController@getIndex') }}">Nhãn mác, tem bảo hành</a></li>
+            <li><a href="{{ action('AnPhamKhacController@getIndex') }}">Ấn phẩm khác</a></li>
           </ul>
         </li>
         <li><a href="{{ action('FrontendController@getKhuyenMai') }}">Khuyến mãi</a></li>

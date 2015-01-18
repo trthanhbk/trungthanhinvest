@@ -16,7 +16,7 @@
     </div>
 </div>
 
-@include("layouts.elements.displays.newsletter")
+<!-- @include("layouts.elements.displays.newsletter") -->
 
 @include("layouts.elements.displays.footer")
 

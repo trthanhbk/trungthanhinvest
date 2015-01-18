@@ -1,21 +1,34 @@
 <?php
-
-class VanphongController extends BaseController {
-
-    public function getDanhThiep() {
+class VanphongController extends BaseController
+{
+    
+    public function getIndex()
+    {
+        
+        return View::make('frontends.van_phong.index');
+    }
+    
+    public function getDanhThiep()
+    {
+        
         return View::make('frontends.van_phong.danh_thiep');
-    }  
-
-    public function getTieuDeThu() {
+    }
+    
+    public function getTieuDeThu()
+    {
+        
         return View::make('frontends.van_phong.tieu_de_thu');
-    } 
-
-    public function getPhongBi() {
+    }
+    
+    public function getPhongBi()
+    {
+        
         return View::make('frontends.van_phong.phong_bi');
-    }     
-
-    public function getBiaDungHoSo() {
+    }
+    
+    public function getBiaDungHoSo()
+    {
+        
         return View::make('frontends.van_phong.bia_dung_ho_so');
-    }  
-
+    }
 }

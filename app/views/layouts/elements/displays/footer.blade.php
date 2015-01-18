@@ -7,7 +7,7 @@
 
         <div class="col-md-4">
         <div class="widget">
-        <h5>Contact</h5>
+        <h5>Liên hệ</h5>
         <hr />
         <div class="social">
         CÔNG TY CỔ PHẦN IN VÀ THƯƠNG MẠI TRUNG THÀNH
