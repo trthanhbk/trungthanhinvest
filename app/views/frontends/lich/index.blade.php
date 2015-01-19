@@ -24,7 +24,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('LichController@getLichDocQuyen') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('LichController@getLichDocQuyen') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -47,7 +47,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('LichController@getLichInPhoi') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('LichController@getLichInPhoi') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -69,7 +69,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('LichController@getLichLoXo') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('LichController@getLichLoXo') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('LichController@getLichNepThiec') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('LichController@getLichNepThiec') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -106,14 +106,14 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Thiếp chúc mừng năm mới</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>
+        <h5><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Thiếp chúc mừng năm mới</a></h5>
         <!-- Para. Note more than 2 lines. -->
         <p>Something about the product goes here. Not More than 2 lines.</p>
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -135,7 +135,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('LichController@getTui') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('LichController@getTui') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>

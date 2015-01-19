@@ -24,7 +24,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('QuangcaoController@getToGap') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('QuangcaoController@getToGap') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -47,7 +47,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('QuangcaoController@getToRoi') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('QuangcaoController@getToRoi') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -69,7 +69,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('QuangcaoController@getPoster') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('QuangcaoController@getPoster') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('QuangcaoController@getCatalogue') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('QuangcaoController@getCatalogue') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>

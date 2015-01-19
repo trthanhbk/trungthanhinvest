@@ -24,7 +24,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('NhanController@getNhanDecal') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('NhanController@getNhanDecal') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -47,7 +47,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button pull-right"><a href="{{ action('NhanController@getTemBaoHanh') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('NhanController@getTemBaoHanh') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
