@@ -1,5 +1,5 @@
 <div>
-    <h4 class="title text-center">Danh mục thiết kế và in ấn</h4>
+    <h4 class="title text-center">Danh mục thiết kế & in ấn</h4>
     <nav>
         <ul id="nav">
             <li class="has_sub"><a href="#" {{ $controller == "VanphongController" ? "class='open'" : "" }}>Ấn phẩm văn phòng</a>
