@@ -6,15 +6,21 @@
                 <div class="active">
                     <!-- Content -->
                     <h4 class="title">Liên Hệ</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate eros nec odio egestas in dictum nisi vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse porttitor luctus imperdiet. <a href="#">Praesent ultricies</a> enim ac ipsum aliquet pellentesque. Nullam justo nunc, dignissim at convallis posuere, sodales eu orci. Duis a risus sed dolor placerat semper quis in urna. Nam risus magna, fringilla sit amet blandit viverra, dignissim eget est. Ut <strong>commodo ullamcorper risus nec</strong> mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. Nulla facilisi. Aenean at massa leo. Vestibulum in varius arcu.</p>
-                    <ul>
-                        <li>Etiam adipiscing posuere justo, nec iaculis justo dictum non</li>
-                        <li>Cras tincidunt mi non arcu hendrerit eleifend</li>
-                        <li>Aenean ullamcorper justo tincidunt justo aliquet et lobortis diam faucibus</li>
-                        <li>Maecenas hendrerit neque id ante dictum mattis</li>
-                        <li>Vivamus non neque lacus, et cursus tortor</li>
-                    </ul>
-                    <p> Nam risus magna, fringilla sit amet blandit viverra, dignissim eget est. Ut <strong>commodo ullamcorper risus nec</strong> mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. Nulla facilisi. Aenean at massa leo. Vestibulum in varius arcu.</p>
+                    <div class="social" style="font-weight: bold; color: red;">
+                    CÔNG TY CỔ PHẦN IN VÀ THƯƠNG MẠI TRUNG THÀNH
+                    </div>
+                    <hr />
+                    <i class="icon-home"></i> &nbsp; 74 Doãn Kế Thiện, Mai Dịch, Cầu Giấy, Hà Nội.
+                    <hr />
+                    <i class="icon-phone"></i> &nbsp; Phone: +(84) 437649789
+                    <hr />
+                    <i class="fa fa-mobile-phone"></i> &nbsp; Hotline: Mrs Hoa - 0936.000.996
+                    <hr />
+                    <i class="fa fa-fax"></i> &nbsp; Fax: +(84) 437648083
+                    <hr />
+                    <i class="icon-envelope-alt"></i> &nbsp; <a href="mailto:trungthanhinan@gmail.com">trungthanhinan@gmail.com</a>
+                    <hr />
+                    <i class="icon-html5"></i> &nbsp; <a href="#">trungthanhinan.com</a>
                 </div>            
         </div>
     </div>

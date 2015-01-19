@@ -15,7 +15,7 @@
         <li><a href="{{ url('/') }}"><i class="icon-home"></i></a></li>
         <li><a href="{{ action('FrontendController@getIntro') }}">Giới thiệu</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm & dịch vụ <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="width: 195px;">Sản phẩm & dịch vụ <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="{{ action('VanphongController@getIndex') }}">Ấn phẩm văn phòng</a></li>
             <li><a href="{{ action('QuangcaoController@getIndex') }}">Ấn phẩm quảng cáo</a></li>
@@ -33,7 +33,7 @@
             <li><a href="{{ action('FrontendController@getDatHangInAn') }}">Đặt Hàng In Ấn</a></li>            
           </ul>
         </li>
-        <li><a href="{{ action('FrontendController@getPhanHoi') }}">Phản hồi</a></li>
+        <li><a href="{{ action('FrontendController@getPhanHoi') }}" style="width: 100px;">Phản hồi</a></li>
         <li><a href="{{ action('FrontendController@getLienHe') }}">Liên hệ</a></li>
       </ul>
     </nav>
