@@ -6,7 +6,10 @@
                 <div class="active">
                     <!-- Content -->
                     <h4 class="title">Quy Trình Đặt Hàng</h4>
-                    <p><img src="{{ asset('asset/frontend/img/dat_hang/quy_trinh_dat_hang.png') }}" style="width: 120%;"></p>
+                    <p>
+                        <div>Bạn có thể đặt hàng <a href=" {{ action('FrontendController@getDatHangInAn') }}" style="color: blue;"> ở đây </a></div>
+                        <img src="{{ asset('asset/frontend/img/dat_hang/quy_trinh_dat_hang.png') }}" style="width: 120%;">
+                    </p>
                 </div>            
         </div>
     </div>
