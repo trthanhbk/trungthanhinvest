@@ -64,7 +64,7 @@ class FrontendController extends BaseController
         // dd($body);
 
         Mail::send('emails.template', ['body' => $body ], function ($message) {
-            $message->to('thanhcttsp@gmail.com')->subject("Đặt hàng in ấn");
+            $message->to('trungthanhinan@gmail.com')->subject("Đặt hàng in ấn");
         });
 
         return Redirect::action('FrontendController@getDatHangInAn')->withMessage('Cám ơn bạn đã đặt hàng. Chúng tôi sẽ kiểm tra và phản hồi sớm.');
@@ -95,7 +95,7 @@ class FrontendController extends BaseController
         $body .= "Ý kiến: " . Input::get('y_kien') . $newLine;
 
         Mail::send('emails.template', ['body' => $body ], function ($message) {
-            $message->to('thanhcttsp@gmail.com')->subject("Phản hồi");
+            $message->to('trungthanhinan@gmail.com')->subject("Phản hồi");
         });
 
         return Redirect::action('FrontendController@getPhanHoi')->withMessage('Cám ơn bạn đã phản hôi');

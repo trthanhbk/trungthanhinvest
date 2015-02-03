@@ -2,7 +2,7 @@
 
 function getFeedbackQuestions()
 {
-    $choice1 = ['Luôn luôn', 'Thường xuyên', 'Thỉng thoảng', 'Hiếm khi', 'Không'];
+    $choice1 = ['Luôn luôn', 'Thường xuyên', 'Thỉnh thoảng', 'Hiếm khi', 'Không'];
     $choice2 = ['Rất tốt', 'Tốt', 'Trung bình', 'Kém'];
     $choice3 = ['Có', 'Không'];
 
