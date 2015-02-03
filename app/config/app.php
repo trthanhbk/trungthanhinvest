@@ -123,6 +123,7 @@ return array(
         'Prototype\Interfaces\InterfaceServiceProvider',
         'Prototype\Events\EventsServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
+        'Laracasts\Validation\ValidationServiceProvider',
 
 	),
 
@@ -190,7 +191,6 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
         'Ardent'          => 'LaravelBook\Ardent\Ardent',
-        'ErrorDisplay'    => 'Prototype\Common\ErrorDisplay',
         'Constants'       => 'Prototype\Common\Constants',
 	),
 

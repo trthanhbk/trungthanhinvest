@@ -1,5 +1,9 @@
 <?php
 
+Route::get('test', function() {
+    return Test::re();
+});
+
 // Route::controller('users', 'UsersController');
 Route::controller('van-phong','VanphongController');
 Route::controller('quang-cao','QuangcaoController');

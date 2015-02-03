@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'hrm.nadia.vn@gmail.com', 'name' => 'EyeCity Mailer'),
+	'from' => array('address' => 'thanhcttsp@gmail.com', 'name' => 'TrungThanhPrint Mailer'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'hrm.nadia.vn@gmail.com',
+	'username' => 'thanhcttsp@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'nadia#1403',
+	'password' => 'hoathanh',
 
 	/*
 	|--------------------------------------------------------------------------

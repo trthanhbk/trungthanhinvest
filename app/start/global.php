@@ -12,13 +12,7 @@
 */
 
 ClassLoader::addDirectories(array(
-
-	app_path().'/commands',
-	app_path().'/controllers',
-	app_path().'/models',
-	app_path().'/database/seeds',
-
-));
+app_path() . '/commands', app_path() . '/controllers', app_path() . '/models', app_path() . '/database/seeds',));
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +27,7 @@ ClassLoader::addDirectories(array(
 
 $logFile = 'laravel.log';
 
-Log::useDailyFiles(storage_path().'/logs/'.$logFile);
+Log::useDailyFiles(storage_path() . '/logs/' . $logFile);
 
 /*
 |--------------------------------------------------------------------------
@@ -48,9 +42,12 @@ Log::useDailyFiles(storage_path().'/logs/'.$logFile);
 |
 */
 
-App::error(function(Exception $exception, $code)
-{
-	Log::error($exception);
+App::error(function (Exception $exception, $code) {
+    if ($exception instanceof \Laracasts\Validation\FormValidationException) {
+        
+        return Redirect::back()->withInput()->withErrors($exception->getErrors())->withMessage('Có lỗi xảy ra! Bạn hãy kiểm tra thông tin bên dưới.');
+    }
+    Log::error($exception);
 });
 
 /*
@@ -64,9 +61,9 @@ App::error(function(Exception $exception, $code)
 |
 */
 
-App::down(function()
-{
-	return Response::make("Be right back!", 503);
+App::down(function () {
+    
+    return Response::make("Be right back!", 503);
 });
 
 /*
@@ -79,5 +76,5 @@ App::down(function()
 | definitions instead of putting them all in the main routes file.
 |
 */
-require app_path().'/filters.php';
-require app_path().'/validators.php';
+require app_path() . '/filters.php';
+require app_path() . '/validators.php';

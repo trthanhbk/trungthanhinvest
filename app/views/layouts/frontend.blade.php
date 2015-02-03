@@ -8,6 +8,11 @@
                 @include("layouts.elements.displays.sidemenu")
             </div>
             <div class="col-md-9 col-sm-9">
+                @if(Session::has('message'))
+                    <div class="error">
+                        {{ Session::get('message') }}
+                    </div>
+                @endif
                 @yield('content')
 
             </div>

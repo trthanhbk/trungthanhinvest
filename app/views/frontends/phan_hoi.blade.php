@@ -1,22 +1,79 @@
 @extends('layouts.frontend')
 @section('content')
-    <div class="row">
-        <div class="col-md-12">
-            <!-- In "id", use the value which you used in above anchor tags -->
-                <div class="active">
-                    <!-- Content -->
-                    <h4 class="title">Phản Hồi</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate eros nec odio egestas in dictum nisi vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse porttitor luctus imperdiet. <a href="#">Praesent ultricies</a> enim ac ipsum aliquet pellentesque. Nullam justo nunc, dignissim at convallis posuere, sodales eu orci. Duis a risus sed dolor placerat semper quis in urna. Nam risus magna, fringilla sit amet blandit viverra, dignissim eget est. Ut <strong>commodo ullamcorper risus nec</strong> mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. Nulla facilisi. Aenean at massa leo. Vestibulum in varius arcu.</p>
-                    <ul>
-                        <li>Etiam adipiscing posuere justo, nec iaculis justo dictum non</li>
-                        <li>Cras tincidunt mi non arcu hendrerit eleifend</li>
-                        <li>Aenean ullamcorper justo tincidunt justo aliquet et lobortis diam faucibus</li>
-                        <li>Maecenas hendrerit neque id ante dictum mattis</li>
-                        <li>Vivamus non neque lacus, et cursus tortor</li>
-                    </ul>
-                    <p> Nam risus magna, fringilla sit amet blandit viverra, dignissim eget est. Ut <strong>commodo ullamcorper risus nec</strong> mattis. Fusce imperdiet ornare dignissim. Donec aliquet convallis tortor, et placerat quam posuere posuere. Morbi tincidunt posuere turpis eu laoreet. Nulla facilisi. Aenean at massa leo. Vestibulum in varius arcu.</p>
-                </div>            
-        </div>
+<style type="text/css">
+    .bold {
+        font-weight: bold;
+    }
+    .left{
+        float: left;
+        width: 150px;
+    }
+    .right{
+        float: left;
+        width: 300px;
+        margin-right: 10px;
+    }
+    .right input[type=text] {
+        width: 100%;
+    }
+    .clear {
+        clear: both;
+    }
+    .mandatory {
+        color: red;
+    }
+    a {
+        color: blue;
+    }
+    .error{
+        background-color: lightyellow;
+        color: red;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- In "id", use the value which you used in above anchor tags -->
+            <div class="active">
+                <!-- Content -->
+                <h4 class="title">Phản Hồi</h4>
+                <div>Công ty CP In và Đầu tư Trung Thành trân trọng cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi trong thời gian qua. Với mong muốn cải tiến chất lượng dịch vụ và mang đến khách hàng sự thỏa mãn tối ưu, chúng tôi đã thiết kế bảng khảo sát đánh giá dịch vụ, rất mong nhận được ý kiến đóng góp thiết thực của quý khách.</div>
+                {{ Form::open() }}
+                    <div class="bold">I. Thông tin cá nhân</div>
+
+                    <div class="left">Họ tên <span class="mandatory">*</span></div>
+                    <div class="right">{{ Form::text('name') }}{{ ErrorDisplay::getInstance()->DisplayIndividual($errors, "name") }}</div>
+                    <div class="clear"></div>
+
+                    <div class="left">Email <span class="mandatory">*</span></div>
+                    <div class="right">{{ Form::text('email') }}{{ ErrorDisplay::getInstance()->DisplayIndividual($errors, "email") }}</div>
+                    <div class="clear"></div>
+
+                    <div class="left">Số điện thoại <span class="mandatory">*</span></div>
+                    <div class="right">{{ Form::text('phone') }}{{ ErrorDisplay::getInstance()->DisplayIndividual($errors, "phone") }}</div>
+                    <div class="clear"></div>
+
+                    <div class="left">Cơ quan/công ty</div>
+                    <div class="right">{{ Form::text('company') }}</div>
+                    <div class="clear"></div>
+
+                    <div class="left">Địa chỉ</div>
+                    <div class="right">{{ Form::text('address') }}{{ ErrorDisplay::getInstance()->DisplayIndividual($errors, "address") }}</div>
+                    <div class="clear"></div>
+
+                    <div class="bold">II. Đánh giá của bạn</div>
+                    {{ getFeedbackQuestionsForm() }}
+
+                    <div>(<span class="mandatory">*</span>) Thông tin bắt buộc</div>
+                    <div style="text-align: center;">
+                        {{ Form::submit('Phản hồi') }}
+                    </div>
+                    <div style="margin-top: 20px;">
+                        Ngoài ra, bạn cũng có thể gửi cho chúng tôi thông tin phản hồi của bạn đến địa chỉ <a href="mailto:trungthanhinan@gmail.com">trungthanhinan@gmail.com</a> hoặc fax đến số (84-4) 37648083
+                    </div>
+                {{ Form::close() }}
+            </div>            
     </div>
+</div>
 <!-- Page content ends -->
 @stop
