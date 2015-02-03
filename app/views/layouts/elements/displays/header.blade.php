@@ -26,7 +26,7 @@
   <![endif]-->
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ url('asset/frontend/img/favicon/favicon.png') }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url('asset/frontend/img/favicon/favicon.ico') }}">
 </head>
 
 <body>
