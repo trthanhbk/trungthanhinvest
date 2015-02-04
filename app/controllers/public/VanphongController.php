@@ -13,6 +13,12 @@ class VanphongController extends BaseController
         
         return View::make('frontends.van_phong.danh_thiep');
     }
+
+    public function getDanhThiepBaoGia()
+    {
+        
+        return View::make('frontends.van_phong.danh_thiep_bao_gia');
+    }
     
     public function getTieuDeThu()
     {

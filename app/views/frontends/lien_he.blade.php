@@ -23,7 +23,7 @@
                     <hr />
                     <i class="icon-envelope-alt"></i> &nbsp; <a href="mailto:trungthanhinan@gmail.com">trungthanhinan@gmail.com</a>
                     <hr />
-                    <i class="icon-html5"></i> &nbsp; <a href="#">trungthanhinvest.com.vn</a>
+                    <i class="icon-html5"></i> &nbsp; <a href="trungthanhinvest.com.vn">trungthanhinvest.com.vn</a>
                 </div>            
         </div>
     </div>
