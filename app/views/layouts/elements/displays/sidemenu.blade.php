@@ -4,7 +4,7 @@
         <ul id="nav">
             <li class="has_sub"><a href="#" {{ $controller == "VanphongController" ? "class='open'" : "" }}>Ấn phẩm văn phòng</a>
                 <ul {{ $controller == "VanphongController" ? "style='display:block;'" : "" }}>
-                    <li><a href="{{ action('VanphongController@getDanhThiep') }}">Danh thiếp</a></li>
+                    <li><a href="{{ action('VanphongController@getInNameCardGiaRe') }}">Danh thiếp</a></li>
                     <li><a href="{{ action('VanphongController@getTieuDeThu') }}">Tiêu đề thư</a></li>
                     <li><a href="{{ action('VanphongController@getPhongBi') }}">Phong bì</a></li>
                     <li><a href="{{ action('VanphongController@getBiaDungHoSo') }}">Bìa đựng hồ sơ</a></li>

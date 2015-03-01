@@ -14,13 +14,17 @@
         .centerColumn table {            
             width: 70%;   
         }
-        .centerColumn table th,td {
+        .noBorder table th,td {
             width: 50%;
             border: 1px solid black;
-            padding-left: 5px;        
+            padding-left: 5px;
         }
         .active a {
             color: blue;
+        }
+        th {
+            color: blue;
+            text-align: center;
         }
         th,td {
             vertical-align: top;
@@ -39,7 +43,7 @@
                     <p><img src="{{ asset('asset/frontend/img/danh_muc_thiet_ke/mau_chon_thiet_ke.png') }}" style="width: 100%"></p>
                     <div class="centerColumn">
                         <div>Kiểm tra thông tin chi tiết về số lượng và mức giá <a href="{{ action('VanphongController@getDanhThiepBaoGia') }}">tại đây</a>, trước khi bạn lựa chọn.</div>
-                        <div>Name cards ( 3.50" X 2.00")</div>
+                        <div>Name cards ( 5.50 cm X 9.00 cm)</div>
                         <table>
                             <tr>
                                 <th>Số lượng</th>
@@ -74,10 +78,10 @@
                         </tr>
                     </table>
                     <div class="text-center" style="margin-top: 30px;">
-                        <div style="font-size: 16px; font-weight: bold;">Tại sao cần danh thiếp?</div>
+                        <div style="font-size: 16px; font-weight: bold; color: red">Tại sao cần danh thiếp?</div>
                         <div>Bí quyết sáng tạo cho danh thiếp của bạn</div>
                     </div>
-                    <table>
+                    <table class="noBorder">
                         <tr>
                             <th>Thiết kế giới thiệu: Màu sắc rực rỡ</th>
                             <th>Ba yếu tố cần có cho danh thiếp của bạn</th>

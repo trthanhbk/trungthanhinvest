@@ -34,10 +34,7 @@
                 <div class="active">
                     <!-- Content -->
                     <h4 class="title">Tiêu Đề Thư</h4>
-                    <p>Giấy tiêu đề</p>
-                    <p>Giấy tiêu đề cho hóa đơn, báo giá và những lĩnh vực khác</p>
-                    <p>Thêm logo, hình ảnh và nội dung của công ty, </p>
-                    <p><img src="{{ asset('asset/frontend/img/danh_muc_thiet_ke/mau_chon_thiet_ke.png') }}" style="width: 100%"></p>
+                    @include('frontends._shared.one_third_products')
                 </div>            
         </div>
     </div>
