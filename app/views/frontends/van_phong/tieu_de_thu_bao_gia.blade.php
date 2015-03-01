@@ -49,22 +49,22 @@
                             <td>380</td>
                         </tr>
                         <tr>
-                            <th>Giấy Off 80 gsm</th>
-                            <td>1100</td>
-                            <td>655</td>
-                            <td>515</td>
-                            <td>430</td>
+                            <th>Giấy Off 100 gsm</th>
+                            <td>1130</td>
+                            <td>700</td>
+                            <td>550</td>
+                            <td>480</td>
+                            <td>440</td>
                             <td>400</td>
-                            <td>380</td>
                         </tr>
                         <tr>
-                            <th>Giấy Off 80 gsm</th>
-                            <td>1100</td>
-                            <td>655</td>
-                            <td>515</td>
-                            <td>430</td>
-                            <td>400</td>
-                            <td>380</td>
+                            <th>Giấy Off 120 gsm</th>
+                            <td>1150</td>
+                            <td>730</td>
+                            <td>600</td>
+                            <td>535</td>
+                            <td>500</td>
+                            <td>470</td>
                         </tr>
                         <tr>
                             <td></td>
