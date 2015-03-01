@@ -96,32 +96,32 @@ class VanphongController extends BaseController
             [
                 "title" => "Công ty in tiêu đề thư chuyên nghiệp",
                 "action" => $action,
-                "image" => $base_url . "cong_ty_in_tieu_đe_thu_chuyen_nghiep.png",
+                "image" => $base_url . "cong_ty_in_tieu_de_thu_chuyen_nghiep.png",
             ],
             [
                 "title" => "In tiêu đề thư nhanh",
                 "action" => $action,
-                "image" => $base_url . "in_tieu_đe_thu_nhanh.png",
+                "image" => $base_url . "in_tieu_de_thu_nhanh.png",
             ],
             [
                 "title" => "In tiêu đề thư tại Hà Nội",
                 "action" => $action,
-                "image" => $base_url . "in_tieu_đe_thu_tai_ha_noi.png",
+                "image" => $base_url . "in_tieu_de_thu_tai_ha_noi.png",
             ],
             [
                 "title" => "In tiêu đề thư lấy ngay",
                 "action" => $action,
-                "image" => $base_url . "in_tieu_đe_thu_lay_ngay.jpg",
+                "image" => $base_url . "in_tieu_de_thu_lay_ngay.jpg",
             ],
             [
                 "title" => "In tiêu đề thư giá rẻ tại Hà Nội",
                 "action" => $action,
-                "image" => $base_url . "in_tieu_đe_thu_gia_re_tai_ha_noi.jpg",
+                "image" => $base_url . "in_tieu_de_thu_gia_re_tai_ha_noi.jpg",
             ],
             [
                 "title" => "In tiêu đề thư giá rẻ",
                 "action" => $action,
-                "image" => $base_url . "in_tieu_đe_thu_gia_re.jpg",
+                "image" => $base_url . "in_tieu_de_thu_gia_re.jpg",
             ],
         ];
         return View::make('frontends.van_phong.tieu_de_thu', compact("products"));
