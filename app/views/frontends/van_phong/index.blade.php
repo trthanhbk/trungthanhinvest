@@ -79,19 +79,19 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('VanphongController@getBiaDungHoSo') }}"><img src="{{ url('asset/frontend/img/photos/in_bia_dung_ho_so.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('VanphongController@getKepFile') }}"><img src="{{ url('asset/frontend/img/photos/in_kep_file.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('VanphongController@getBiaDungHoSo') }}">In bìa đựng hô sơ</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>
+        <h5><a href="{{ action('VanphongController@getKepFile') }}">In kẹp file</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>
         <!-- Para. Note more than 2 lines. -->
         <p>Something about the product goes here. Not More than 2 lines.</p>
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button text-right"><a href="{{ action('VanphongController@getBiaDungHoSo') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('VanphongController@getKepFile') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
