@@ -24,10 +24,7 @@
             <!-- In "id", use the value which you used in above anchor tags -->
                 <div class="active">
                     <!-- Content -->
-                    <h4 class="title">Bảng giá in tiêu đề thư</h4>
-                    <p>Giấy tiêu đề</p>
-                    <p>Giấy tiêu đề cho hóa đơn, báo giá và những lĩnh vực khác</p>
-                    <p>Thêm logo, hình ảnh và nội dung của công ty, </p>
+                    <h4 class="title">Bảng giá in tiêu đề thư với công nghệ in offset </h4>                    
                     <p><img src="{{ asset('asset/frontend/img/danh_muc_thiet_ke/mau_chon_thiet_ke.png') }}" style="width: 100%"></p>
                     <table>
                         <tr>
@@ -86,7 +83,8 @@
                                 </ul>
                             </td>
                         </tr>                        
-                    </table>                    
+                    </table>
+                    @include('frontends._shared.company', ['service' => 'in tiêu đề thư'])
                 </div>            
         </div>
     </div>

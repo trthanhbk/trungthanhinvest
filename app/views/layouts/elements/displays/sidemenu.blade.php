@@ -7,7 +7,7 @@
                     <li><a href="{{ action('VanphongController@getInNameCardGiaRe') }}">Danh thiếp</a></li>
                     <li><a href="{{ action('VanphongController@getTieuDeThu') }}">Tiêu đề thư</a></li>
                     <li><a href="{{ action('VanphongController@getPhongBi') }}">Phong bì</a></li>
-                    <li><a href="{{ action('VanphongController@getBiaDungHoSo') }}">Bìa đựng hồ sơ</a></li>
+                    <li><a href="{{ action('VanphongController@getKepFile') }}">Kẹp file</a></li>
                 </ul>
             </li>
             <li class="has_sub"><a href="#" {{ $controller == "QuangcaoController" ? "class='open'" : "" }}>Ấn phẩm quảng cáo</a>

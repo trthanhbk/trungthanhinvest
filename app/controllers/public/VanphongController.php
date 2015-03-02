@@ -82,7 +82,7 @@ class VanphongController extends BaseController
         return View::make('frontends.van_phong.danh_thiep');
     }
 
-    public function getDanhThiepBaoGia()
+    public function getTaiSaoCanDanhThiep()
     {
         
         return View::make('frontends.van_phong.danh_thiep_bao_gia');
@@ -135,13 +135,101 @@ class VanphongController extends BaseController
     
     public function getPhongBi()
     {
-        
-        return View::make('frontends.van_phong.phong_bi');
+        $action = "VanphongController@getPhongBiBaoGia";
+        $base_url = "asset/frontend/img/van_phong/phong_bi/";
+        $products = [
+            [
+                "title" => "In phong bì 12x22",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_12x22.jpg",
+            ],
+            [
+                "title" => "In phong bì A4",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_A4.jpg",
+            ],
+            [
+                "title" => "In phong bì công ty",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_cong_ty.jpg",
+            ],
+            [
+                "title" => "In phong bì giá rẻ tại Hà Nội",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_gia_re_tai_ha_noi.jpg",
+            ],
+            [
+                "title" => "In phong bì giá rẻ",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_gia_re.jpg",
+            ],
+            [
+                "title" => "In phong bì tại Hà Nội",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_tai_ha_noi.jpg",
+            ],
+            [
+                "title" => "In phong bì thư",
+                "action" => $action,
+                "image" => $base_url . "in_phong_bi_thu.jpg",
+            ],
+        ];
+        return View::make('frontends.van_phong.phong_bi', compact("products"));
     }
-    
-    public function getBiaDungHoSo()
+
+    public function getPhongBiBaoGia()
     {
         
-        return View::make('frontends.van_phong.bia_dung_ho_so');
+        return View::make('frontends.van_phong.phong_bi_bao_gia');
+    }
+    
+    public function getKepFile()
+    {
+        $action = "VanphongController@getKepFileBaoGia";
+        $base_url = "asset/frontend/img/van_phong/kep_file/";
+        $products = [
+            [
+                "title" => "Các mẫu kẹp file ấn tượng",
+                "action" => $action,
+                "image" => $base_url . "cac_mau_kep_file_an_tuong.jpg",
+            ],
+            [
+                "title" => "In kẹp file chất lượng",
+                "action" => $action,
+                "image" => $base_url . "in_kep_file_chat_luong.jpg",
+            ],
+            [
+                "title" => "In kẹp file chuyên nghiệp",
+                "action" => $action,
+                "image" => $base_url . "in_kep_file_chuyen_nghiep.jpg",
+            ],
+            [
+                "title" => "In kẹp file giá rẻ",
+                "action" => $action,
+                "image" => $base_url . "in_kep_file_gia_re.jpg",
+            ],
+            [
+                "title" => "In kẹp file nhanh",
+                "action" => $action,
+                "image" => $base_url . "in_kep_file_nhanh.jpg",
+            ],
+            [
+                "title" => "In kẹp file tại Hà Nội",
+                "action" => $action,
+                "image" => $base_url . "in_kep_file_tai_ha_noi.jpg",
+            ],
+            [
+                "title" => "Thiết kế kẹp file ấn tượng",
+                "action" => $action,
+                "image" => $base_url . "thiet_ke_kep_file_an_tuong.jpg",
+            ],
+        ];
+        return View::make('frontends.van_phong.kep_file', compact("products"));
+    }
+
+    public function getKepFileBaoGia()
+    {
+        
+        return View::make('frontends.van_phong.kep_file_bao_gia');
     }
 }
