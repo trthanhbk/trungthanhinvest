@@ -40,7 +40,7 @@
                             <th>3.000 chiếc</th>
                             <th>4.000 chiếc</th>
                             <th>5.000 chiếc</th>
-                            <th>1.0000 chiếc</th>
+                            <th>10.000 chiếc</th>
                         </tr>
                         <tr>
                             <th>Off 80</th>
@@ -100,7 +100,7 @@
                             <th>3.000 chiếc</th>
                             <th>4.000 chiếc</th>
                             <th>5.000 chiếc</th>
-                            <th>1.0000 chiếc</th>
+                            <th>10.000 chiếc</th>
                         </tr>
                         <tr>
                             <th>Off 80</th>
@@ -179,7 +179,7 @@
                             <th>3.000 chiếc</th>
                             <th>4.000 chiếc</th>
                             <th>5.000 chiếc</th>
-                            <th>1.0000 chiếc</th>
+                            <th>10.000 chiếc</th>
                         </tr>
                         <tr>
                             <th>Off 100</th>
