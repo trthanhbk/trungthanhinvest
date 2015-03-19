@@ -187,28 +187,6 @@
         <div class="clearfix"></div>
       </div>
     </div>
-  </div>
-
-  <div class="col-md-4 col-sm-6">
-    <div class="item">
-      <!-- Item image -->
-      <div class="item-image">
-        <a href=""><img src="{{ url('asset/frontend/img/photos/10.png') }}" alt="" class="img-responsive" /></a>
-      </div>
-      <!-- Item details -->
-      <div class="item-details">
-        <!-- Name -->
-        <h5><a href="">Huawai One V</a></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
-        <hr />
-        <!-- Price -->
-        <div class="pull-left"></div>
-        <!-- Xem tiếp -->
-        <div class="button text-right"><a href="">Xem tiếp</a></div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
   </div>  
 
 @stop
