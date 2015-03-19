@@ -19,11 +19,11 @@
                     <hr />
                     <i class="icon-phone"></i> &nbsp; Phone: +(84) 437649789 <span style="padding-left: 10px;">Fax: +(84) 437648083</span>
                     <hr />
-                    <i class="fa fa-mobile-phone"></i> &nbsp; Hotline: Mrs Hoa - 0936.000.996
+                    <img src=" {{ url('asset/frontend/img/hotline.jpg')  }}" height="15px"> &nbsp; Hotline: Mrs Hoa - 0936.000.996
                     <hr />
                     <i class="icon-envelope-alt"></i> &nbsp; <a href="mailto:trungthanhinan@gmail.com">trungthanhinan@gmail.com</a>
                     <hr />
-                    <i class="icon-html5"></i> &nbsp; <a href="trungthanhinvest.com.vn">trungthanhinvest.com.vn</a>
+                    <img src=" {{ url('asset/frontend/img/website.png')  }}" height="15px"> &nbsp; <a href="trungthanhinvest.com.vn">trungthanhinvest.com.vn</a>
                 </div>            
         </div>
     </div>

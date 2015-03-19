@@ -19,7 +19,7 @@
         <hr />
         <i class="icon-envelope-alt"></i> &nbsp; <a href="mailto:trungthanhinan@gmail.com">trungthanhinan@gmail.com</a>
         <hr />
-        <i class="icon-html5"></i> &nbsp; <a href="#">trungthanhinan.com</a>
+        <img src=" {{ url('asset/frontend/img/website.png')  }}" height="15px"> &nbsp; <a href="#">trungthanhinan.com</a>
         </div>
         </div>
 
@@ -47,9 +47,9 @@
           <div class="widget">
             <h5>Hỗ trợ khách hàng</h5>
             <hr />
-            <i class="fa fa-yahoo"></i> &nbsp; trungthanhinan
+            <a href="ymsgr:sendim?trungthanhinan"><img src=" {{ url('asset/frontend/img/yahoo.png')  }}" height="15px"></a> &nbsp; trungthanhinan
             <hr />
-            <i class="icon-skype"></i> &nbsp; trungthanhprint
+            <a href="skype:trungthanhprint?chat"><img src=" {{ url('asset/frontend/img/skype.jpg')  }}" height="15px"></a> &nbsp; trungthanhprint
             <hr />
             <i class="icon-phone"></i> &nbsp; Mr Liêm: 0912 153 572 <br>
             <i class="icon-phone"></i> &nbsp; Mrs Hoa: 0936 000 996
