@@ -122,7 +122,7 @@ p {
                 <p><span class="bold">5. Lịch</span>
                     <ul>
                         <li>Lịch độc quyền</li>
-                        <li>Lịch in phôi</li>
+                        <li>Lịch bàn</li>
                         <li>Lịch lò xo 7 tờ</li>
                         <li>Lịch nẹp thiếc</li>
                         <li>Thiếp chúc mừng năm mới</li>

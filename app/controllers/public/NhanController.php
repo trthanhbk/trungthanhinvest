@@ -7,9 +7,9 @@ class NhanController extends BaseController
         return View::make('frontends.nhan.index');
     }
     
-    public function getNhanDecal()
+    public function getNhanMac()
     {
-        $action = "NhanController@getNhanDecalBaoGia";
+        $action = "NhanController@getNhanMacBaoGia";
         $base_url = "asset/frontend/img/nhan/nhan_decal/";
         $products = [
             [
@@ -36,7 +36,7 @@ class NhanController extends BaseController
         return View::make('frontends.nhan.nhan_decal', compact("products"));
     }
 
-    public function getNhanDecalBaoGia() {
+    public function getNhanMacBaoGia() {
 
         return View::make('frontends.nhan.nhan_decal_bao_gia');
     }    

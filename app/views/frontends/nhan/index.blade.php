@@ -10,13 +10,13 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('NhanController@getNhanDecal') }}"><img src="{{ url('asset/frontend/img/photos/in_danh_thiep.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('NhanController@getNhanMac') }}"><img src="{{ url('asset/frontend/img/photos/in_danh_thiep.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
         <!-- Use the span tag with the class "ico" and icon link (hot, sale, deal, new) -->
-        <h5><a href="{{ action('NhanController@getNhanDecal') }}">Nhãn decal</a><span class="ico"><img src="{{ url('asset/frontend/img/hot.png') }}" alt="" /></span></h5>
+        <h5><a href="{{ action('NhanController@getNhanMac') }}">Nhãn mác</a><span class="ico"><img src="{{ url('asset/frontend/img/hot.png') }}" alt="" /></span></h5>
         <div class="clearfix"></div>
         <!-- Para. Note more than 2 lines. -->
         <p>Something about the product goes here. Not More than 2 lines.</p>
@@ -24,7 +24,7 @@
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button text-right"><a href="{{ action('NhanController@getNhanDecal') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('NhanController@getNhanMac') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>

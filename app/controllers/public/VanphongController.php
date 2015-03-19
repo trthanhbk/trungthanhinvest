@@ -65,7 +65,7 @@ class VanphongController extends BaseController
             [
                 "title" => "Mẫu name card đẹp sáng tạo",
                 "action" => $action,
-                "image" => $base_url . "mau_name_card_đep_sang_tao.jpg",
+                "image" => $base_url . "mau_name_card_dep_sang_tao.jpg",
             ],
             [
                 "title" => "Thiết kế card visit miễn phí",
