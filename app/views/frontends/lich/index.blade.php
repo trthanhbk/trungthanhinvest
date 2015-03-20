@@ -17,9 +17,7 @@
         <!-- Name -->
         <!-- Use the span tag with the class "ico" and icon link (hot, sale, deal, new) -->
         <h5><a href="{{ action('LichController@getLichDocQuyen') }}">Lịch độc quyền</a><span class="ico"><img src="{{ url('asset/frontend/img/hot.png') }}" alt="" /></span></h5>
-        <div class="clearfix"></div>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <div class="clearfix"></div>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -40,9 +38,7 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getLichBan') }}">Lịch bàn</a></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('LichController@getLichBan') }}">Lịch bàn</a></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -62,9 +58,7 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getLichLoXo7To') }}">Lịch lò xo 7 tờ</a><span class="ico"><img src="{{ url('asset/frontend/img/new.png') }}" alt="" /></span></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('LichController@getLichLoXo7To') }}">Lịch lò xo 7 tờ</a><span class="ico"><img src="{{ url('asset/frontend/img/new.png') }}" alt="" /></span></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -84,9 +78,7 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getLichLoXo12Thang') }}">Lịch lò xo 12 tháng</a><span class="ico"><img src="{{ url('asset/frontend/img/new.png') }}" alt="" /></span></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('LichController@getLichLoXo12Thang') }}">Lịch lò xo 12 tháng</a><span class="ico"><img src="{{ url('asset/frontend/img/new.png') }}" alt="" /></span></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -101,14 +93,12 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('LichController@getLichNepThiec') }}"><img src="{{ url('asset/frontend/img/photos/in_bia_dung_ho_so.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('LichController@getLichNepThiec') }}"><img src="{{ url('asset/frontend/img/lich/lich_nep_thiec/lich_2015.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getLichNepThiec') }}">Lịch nẹp thiếc</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('LichController@getLichNepThiec') }}">Lịch nẹp thiếc</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -123,14 +113,12 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('LichController@getThiepChucMungNamMoi') }}"><img src="{{ url('asset/frontend/img/photos/in_bia_dung_ho_so.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('LichController@getThiepChucMungNamMoi') }}"><img src="{{ url('asset/frontend/img/lich/thiep_chuc_mung_nam_moi/lixi_nam_moi.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Thiếp chúc mừng năm mới</a></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('LichController@getThiepChucMungNamMoi') }}">Thiếp chúc mừng năm mới</a></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -145,14 +133,12 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('LichController@getTuiGiay') }}"><img src="{{ url('asset/frontend/img/photos/in_bia_dung_ho_so.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('LichController@getTuiGiay') }}"><img src="{{ url('asset/frontend/img/lich/tui_giay/in_tui_giay_cho_shop_thoi_trang.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('LichController@getTuiGiay') }}">Túi giấy</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('LichController@getTuiGiay') }}">Túi giấy</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>

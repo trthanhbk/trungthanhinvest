@@ -17,9 +17,7 @@
         <!-- Name -->
         <!-- Use the span tag with the class "ico" and icon link (hot, sale, deal, new) -->
         <h5><a href="{{ action('VanphongController@getDanhThiep') }}">In danh thiếp</a><span class="ico"><img src="{{ url('asset/frontend/img/hot.png') }}" alt="" /></span></h5>
-        <div class="clearfix"></div>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <div class="clearfix"></div>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -40,9 +38,7 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('VanphongController@getTieuDeThu') }}">In tiêu đề thư</a></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('VanphongController@getTieuDeThu') }}">In tiêu đề thư</a></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -62,9 +58,7 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('VanphongController@getPhongBi') }}">In phong bì</a><span class="ico"><img src="{{ url('asset/frontend/img/new.png') }}" alt="" /></span></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('VanphongController@getPhongBi') }}">In phong bì</a><span class="ico"><img src="{{ url('asset/frontend/img/new.png') }}" alt="" /></span></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
@@ -84,9 +78,7 @@
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
-        <h5><a href="{{ action('VanphongController@getKepFile') }}">In kẹp file</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>
-        <!-- Para. Note more than 2 lines. -->
-        <p>Something about the product goes here. Not More than 2 lines.</p>
+        <h5><a href="{{ action('VanphongController@getKepFile') }}">In kẹp file</a><span class="ico"><img src="{{ url('asset/frontend/img/deal.png') }}" alt="" /></span></h5>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>

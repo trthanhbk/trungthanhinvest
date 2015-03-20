@@ -21,7 +21,7 @@
             <li><a href="{{ action('QuangcaoController@getIndex') }}">Ấn phẩm quảng cáo</a></li>
             <li><a href="{{ action('LichController@getIndex') }}">Lịch</a></li>
             <li><a href="{{ action('NhanController@getIndex') }}">Nhãn mác, tem bảo hành</a></li>
-            <li><a href="{{ action('AnPhamKhacController@getIndex') }}">Ấn phẩm khác</a></li>
+            <!-- <li><a href="{{ action('AnPhamKhacController@getIndex') }}">Ấn phẩm khác</a></li> -->
           </ul>
         </li>
         <li><a href="{{ action('FrontendController@getKhuyenMai') }}">Khuyến mãi</a></li>
