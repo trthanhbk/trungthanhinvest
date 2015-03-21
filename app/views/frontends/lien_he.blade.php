@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends(Config::get('layout.frontend'))
 @section('content')
     <style type="text/css">
         a {
