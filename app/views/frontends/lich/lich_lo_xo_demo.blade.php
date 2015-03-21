@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends(Config::get('layout.frontend'))
 @section('content')
     <div class="row">
         <div class="col-md-12">
