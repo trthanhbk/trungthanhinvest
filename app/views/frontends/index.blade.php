@@ -14,19 +14,19 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('VanphongController@getDanhThiep') }}"><img src="{{ url('asset/frontend/img/photos/in_danh_thiep.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('VanphongController@getInNameCardGiaRe') }}"><img src="{{ url('asset/frontend/img/van_phong/danh_thiep/in_card_gia_re.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
         <!-- Name -->
         <!-- Use the span tag with the class "ico" and icon link (hot, sale, deal, new) -->
-        <h5><a href="{{ action('VanphongController@getDanhThiep') }}">In danh thiếp</a><span class="ico"><img src="{{ url('asset/frontend/img/hot.png') }}" alt="" /></span></h5>
+        <h5><a href="{{ action('VanphongController@getInNameCardGiaRe') }}">In danh thiếp</a><span class="ico"><img src="{{ url('asset/frontend/img/hot.png') }}" alt="" /></span></h5>
         <div class="clearfix"></div>        
         <hr />
         <!-- Price -->
         <div class=" pull-left"></div>
         <!-- Xem tiếp -->
-        <div class="button text-right"><a href="{{ action('VanphongController@getDanhThiep') }}">Xem tiếp</a></div>
+        <div class="button text-right"><a href="{{ action('VanphongController@getInNameCardGiaRe') }}">Xem tiếp</a></div>
         <div class="clearfix"></div>
       </div>
     </div>
@@ -77,7 +77,7 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('VanphongController@getKepFile') }}"><img src="{{ url('asset/frontend/img/photos/in_kep_file.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('VanphongController@getKepFile') }}"><img src="{{ url('asset/frontend/img/van_phong/kep_file/in_kep_file_chuyen_nghiep.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
