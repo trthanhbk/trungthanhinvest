@@ -53,7 +53,7 @@
     <div class="item">
       <!-- Item image -->
       <div class="item-image">
-        <a href="{{ action('VanphongController@getPhongBi') }}"><img src="{{ url('asset/frontend/img/photos/in_phong_bi.jpg') }}" alt="" class="img-responsive" /></a>
+        <a href="{{ action('VanphongController@getPhongBi') }}"><img src="{{ url('asset/frontend/img/van_phong/phong_bi/in_phong_bi_A4.jpg') }}" alt="" class="img-responsive" /></a>
       </div>
       <!-- Item details -->
       <div class="item-details">
