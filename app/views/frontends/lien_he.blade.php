@@ -23,7 +23,7 @@
                     <hr />
                     <i class="icon-envelope-alt"></i> &nbsp; <a href="mailto:trungthanhinan@gmail.com">trungthanhinan@gmail.com</a>
                     <hr />
-                    <img src=" {{ url('asset/frontend/img/website.png')  }}" height="15px"> &nbsp; <a href="http://trungthanhinvest.com.vn">trungthanhinvest.com.vn</a>
+                    <img src=" {{ url('asset/frontend/img/website.png')  }}" height="15px"> &nbsp; <a href="http://trungthanhinvest.com.vn" style="color: blue;">trungthanhinvest.com.vn</a>
                 </div>            
         </div>
     </div>
