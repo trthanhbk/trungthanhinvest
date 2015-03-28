@@ -245,12 +245,12 @@ class QuangcaoController extends BaseController
             [
                 "title" => "Mẫu catalogue đẹp ấn tượng",
                 "action" => $action,
-                "image" => $base_url . "mau_catalogue dep_an tuong.jpg",
+                "image" => $base_url . "mau_catalogue_dep_an_tuong.jpg",
             ],
             [
                 "title" => "In catalogue",
                 "action" => $action,
-                "image" => $base_url . "in catalogue.jpg",
+                "image" => $base_url . "in_catalogue.jpg",
             ],
             [
                 "title" => "Tầm quan trong của catalogue trong marketing",
@@ -260,12 +260,12 @@ class QuangcaoController extends BaseController
             [
                 "title" => "Công ty in catalogue chuyên nghiệp",
                 "action" => $action,
-                "image" => $base_url . "cong_ ty_ in_catalogue_chuyen_nghiep.jpg",
+                "image" => $base_url . "cong_ty_in_catalogue_chuyen_nghiep.jpg",
             ],
             [
                 "title" => "In catalogue giá rẻ",
                 "action" => $action,
-                "image" => $base_url . "in_ catalogue_gia _re.jpg",
+                "image" => $base_url . "in_catalogue_gia_re.jpg",
             ],
             [
                 "title" => "In catalogue lấy ngay",
