@@ -41,7 +41,7 @@
 
         .float-side {
           background: white;
-          z-index: 10;
+          z-index: -10;
         }
 
         .float-side.affix-top {
