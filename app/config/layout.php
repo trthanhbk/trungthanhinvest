@@ -1,5 +1,5 @@
 <?php
 
 return array (
-    'frontend' => 'layouts.frontend-float'
+    'frontend' => 'layouts.frontend'
 );
