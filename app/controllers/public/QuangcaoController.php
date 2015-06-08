@@ -20,7 +20,7 @@ class QuangcaoController extends BaseController
             [
                 "title" => "In tờ gấp nhanh",
                 "action" => $action,
-                "image" => $base_url . "in_to_ gap_nhanh.png",
+                "image" => $base_url . "in_to_gap_nhanh.jpg",
             ],
             [
                 "title" => "In tờ gấp giá rẻ",
