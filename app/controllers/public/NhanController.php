@@ -3,10 +3,10 @@ class NhanController extends BaseController
 {
     public function getIndex()
     {
-        
+
         return View::make('frontends.nhan.index');
     }
-    
+
     public function getNhanMac()
     {
         $action = "NhanController@getNhanMacBaoGia";
@@ -30,8 +30,8 @@ class NhanController extends BaseController
             [
                 "title" => "Thiết kế nhãn mác sản phẩm",
                 "action" => $action,
-                "image" => $base_url . "thiet-ke-nhan-mac-san-pham-01.jpg",
-            ],            
+                "image" => $base_url . "thiet-ke-nhan-mac-san-pham.jpg",
+            ],
         ];
         return View::make('frontends.nhan.nhan_decal', compact("products"));
     }
@@ -39,8 +39,8 @@ class NhanController extends BaseController
     public function getNhanMacBaoGia() {
 
         return View::make('frontends.nhan.nhan_decal_bao_gia');
-    }    
-    
+    }
+
     public function getTemBaoHanh()
     {
         $action = "NhanController@getTemBaoHanhBaoGia";
@@ -65,13 +65,13 @@ class NhanController extends BaseController
                 "title" => "Thiết kế tem bảo hành",
                 "action" => $action,
                 "image" => $base_url . "in-tem-bao-hanh-02.jpg",
-            ],            
+            ],
         ];
         return View::make('frontends.nhan.tem_bao_hanh', compact("products"));
     }
 
     public function getTemBaoHanhBaoGia() {
-        
+
         return View::make('frontends.nhan.tem_bao_hanh_bao_gia');
-    } 
+    }
 }
