@@ -54,5 +54,16 @@
 <noscript><p><img src="//www.trungthanhinvest.com.vn/analytics/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pre-Youtube -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4201639618958202"
+     data-ad-slot="9747523172"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 </body>
 </html>
