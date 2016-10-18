@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
-  <meta name="google-site-verification" content="filCHeXo5XGW5D6Dt5GJdwqcD8KcGWD5ESxCmbei8pQ" />
+  <meta name="google-site-verification" content="xraXqSZB82o9xkvR_w4HhXdeNpgRSnRvt0fVT8TbuQs" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
   {{ HTML::style('asset/frontend/style/bootstrap.css') }}
